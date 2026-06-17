@@ -10,7 +10,7 @@ class UserCardList extends Component {
     getDetails = async () => {
         const url = "http://4.224.186.213/evaluation-service/notifications";
 
-        const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiYXVkIjoiaHR0cDovLzIwLjI0NC41Ni4xNDQvZXZhbHVhdGlvbi1zZXJ2aWNlIiwiZW1haWwiOiJ2dHUyNTExM0B2ZWx0ZWNoLmVkdS5pbiIsImV4cCI6MTc4MTY4MTAyNCwiaWF0IjoxNzgxNjgwMTI0LCJpc3MiOiJBZmZvcmQgTWVkaWNhbCBUZWNobm9sb2dpZXMgUHJpdmF0ZSBMaW1pdGVkIiwianRpIjoiZmFlMDIzMTctZjBjMi00OTFhLThkYjgtN2Q4NzUwNTYzNDAyIiwibG9jYWxlIjoiZW4tSU4iLCJuYW1lIjoidnR1MjUxMTMiLCJzdWIiOiIzOWVjNWE1NS03NDdkLTQ4OGYtYWNmNi01YzZkZWNmMDhjYWIifSwiZW1haWwiOiJ2dHUyNTExM0B2ZWx0ZWNoLmVkdS5pbiIsIm5hbWUiOiJ2dHUyNTExMyIsInJvbGxObyI6IjIzdWVpdDAwMjEiLCJhY2Nlc3NDb2RlIjoianVGcGh2IiwiY2xpZW50SUQiOiIzOWVjNWE1NS03NDdkLTQ4OGYtYWNmNi01YzZkZWNmMDhjYWIiLCJjbGllbnRTZWNyZXQiOiJZZVJQWlBLQkRNaGp5SHduIn0.tS98-5xo9KKzjpu7zMcupsnxFRPGR9mgzjfW96xjU9I";
+        const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJNYXBDbGFpbXMiOnsiYXVkIjoiaHR0cDovLzIwLjI0NC41Ni4xNDQvZXZhbHVhdGlvbi1zZXJ2aWNlIiwiZW1haWwiOiJ2dHUyNTExM0B2ZWx0ZWNoLmVkdS5pbiIsImV4cCI6MTc4MTY4MjM3MiwiaWF0IjoxNzgxNjgxNDcyLCJpc3MiOiJBZmZvcmQgTWVkaWNhbCBUZWNobm9sb2dpZXMgUHJpdmF0ZSBMaW1pdGVkIiwianRpIjoiNWZhYjUwYjUtNzhmMi00ZmRkLTllOTAtZDg1ZDg2OGVkNmNmIiwibG9jYWxlIjoiZW4tSU4iLCJuYW1lIjoidnR1MjUxMTMiLCJzdWIiOiIzOWVjNWE1NS03NDdkLTQ4OGYtYWNmNi01YzZkZWNmMDhjYWIifSwiZW1haWwiOiJ2dHUyNTExM0B2ZWx0ZWNoLmVkdS5pbiIsIm5hbWUiOiJ2dHUyNTExMyIsInJvbGxObyI6IjIzdWVpdDAwMjEiLCJhY2Nlc3NDb2RlIjoianVGcGh2IiwiY2xpZW50SUQiOiIzOWVjNWE1NS03NDdkLTQ4OGYtYWNmNi01YzZkZWNmMDhjYWIiLCJjbGllbnRTZWNyZXQiOiJZZVJQWlBLQkRNaGp5SHduIn0.6Axmq5gyFM7spRfGwoNwahm7FmAbDmMe-CprXCyi-lg";
 
         const options = {
             method: "GET",
@@ -100,9 +100,9 @@ class UserCardList extends Component {
                             </p>
 
                             <p>
-                                <strong>ID:</strong>
+                                <strong>Type:</strong>
                                 {" "}
-                                {item.ID}
+                                {item.Type}
                             </p>
 
                             <p>
